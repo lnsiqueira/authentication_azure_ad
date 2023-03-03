@@ -16,7 +16,7 @@ class AzureADAuthentication {
       return accessToken;
     } else {
       var issuer = await open_id.Issuer.discover(
-          Uri.parse("https://login.microsoftonline.com/$tenantId/v2.0"));
+          Uri.parse("https://login.microsoftonline.com/$tenantId/v2.0x"));
       var client = open_id.Client(issuer, clientId);
 
       var authenticator = open_id.Authenticator(client, scopes: scopes);
