@@ -1,7 +1,7 @@
 name: authentication_azure_ad
 description: Package Azure AD authentication.
 version: 1.0.0
-#homepage:
+homepage: https://github.com/lnsiqueira/authentication_azure_ad
 
 environment:
   sdk: ">=2.19.2 <3.0.0"
